@@ -46,8 +46,6 @@ Repo id: `2.13-lcd-122x250-spi-st7305`
 
 <p align="center"><img alt="YDP213H001-V3" src="./images/YDP213H001-V3.png" width="320" /></p>
 
-**Notes:** Module.
-
 ---
 
 ## How to Switch Branches
