@@ -2,9 +2,9 @@
 
 <h1 align="center">OSPTEK 2.13″ LCD 122×250 (ST7305 · SPI)</h1>
 
-<p align="center"><b>Reflective LCD · SPI · ST7305</b></p>
+<p align="center"><b>LCD module · SPI · ST7305 · Multi-Version Index</b></p>
 
-<p align="center"><a href="./README.md">简体中文</a> | English</p>
+<p align="center">English | <a href="./README.md">简体中文</a></p>
 
 <p align="center">
   <img alt="Size: 2.13 inch" src="https://img.shields.io/badge/Size-2.13%22-3498DB?style=flat-square" />
@@ -13,85 +13,61 @@
   <img alt="Driver: ST7305" src="https://img.shields.io/badge/Driver-ST7305-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 2.13″ 122×250 reflective LCD SPI module (ST7305) product image" src="./images/product.png" width="640" /></p>
-
 ## Contents
 
-- [Overview](#overview)
-- [Specifications](#specifications)
-- [Sample projects](#sample-projects)
-- [Repository layout](#repository-layout)
-- [Resources](#resources)
-- [Buy](#buy)
+- [About](#about)
+- [Versions](#versions)
+- [YDP213H001-V3](#ydp213h001-v3)
+- [How to Switch Branches](#how-to-switch-branches)
+- [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## Overview
+## About
 
-OSPTEK **2.13″ 122×250 reflective LCD** is a **SPI** monochrome display module driven by **ST7305**. Suited to low-power instruments, labels, and outdoor-readable UIs.
+This repository holds materials for the **2.13″ 122×250 LCD (SPI · ST7305)** module family.
 
-Spec ID (repository name): `2.13-lcd-122x250-spi-st7305`
+**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
-Current module version: **YDP213H001-V3**. Electrical and mechanical details follow [`docs/YDP_213_H001_V3_056ab92f80.pdf`](./docs/YDP_213_H001_V3_056ab92f80.pdf).
+Repo id: `2.13-lcd-122x250-spi-st7305`
 
-## Specifications
+---
 
-| Item | Spec |
-| ---- | ---- |
-| Size | 2.13 inch |
-| Type | Reflective LCD (monochrome) |
-| Resolution | 122×250 |
-| Interface | SPI |
-| Driver IC | ST7305 |
+## Versions
 
-> Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
+| Version | Image | Notes |
+| ------- | ----- | ----- |
+| YDP213H001-V3 | <img alt="YDP213H001-V3" src="./images/YDP213H001-V3.png" width="120" /> | [Details](#ydp213h001-v3) |
 
-## Sample projects
+---
 
-| Description | Path |
-| ---- | ---- |
-| ESP32-S3 · ST7305 SPI bring-up (includes `tools/png_to_st7305.py`) | [`examples/esp32s3-2.13lcd-122x250-spi-st7305-bringup/`](./examples/esp32s3-2.13lcd-122x250-spi-st7305-bringup/) |
+## YDP213H001-V3
 
-Bring-up demo photo: [`assets/image_1.jpg`](./assets/image_1.jpg).
+<p align="center"><img alt="YDP213H001-V3" src="./images/YDP213H001-V3.png" width="320" /></p>
 
-## Repository layout
+**Notes:** Module.
 
-```text
-2.13-lcd-122x250-spi-st7305/
-├── README.md
-├── README_EN.md
-├── MODULE_VERSION.md
-├── LICENSE
-├── images/          # README assets
-├── assets/          # demo photos
-├── docs/            # datasheets, adapter board, etc.
-└── examples/        # sample projects
-```
+---
 
-## Resources
+## How to Switch Branches
 
-### Product files
+Full product materials are on each **version branch**; `main` is navigation only.
 
-| Resource | Link |
-| ---- | ---- |
-| Product datasheet (YDP213H001-V3) | [`docs/YDP_213_H001_V3_056ab92f80.pdf`](./docs/YDP_213_H001_V3_056ab92f80.pdf) |
-| Driver IC datasheet (ST7305) | [`docs/ST_7305_V0_2_d0b99d9cdb.pdf`](./docs/ST_7305_V0_2_d0b99d9cdb.pdf) |
-| Reflective LCD adapter board | [`docs/PCB-高反屏转接板.pdf`](./docs/PCB-%E9%AB%98%E5%8F%8D%E5%B1%8F%E8%BD%AC%E6%8E%A5%E6%9D%BF.pdf) |
+- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
+- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
 
-### Samples
+---
 
-- [ESP32-S3 ST7305 SPI bring-up](./examples/esp32s3-2.13lcd-122x250-spi-st7305-bringup/)
-
-## Buy
+## Where to Buy
 
 <p align="center">
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress store" src="https://img.shields.io/badge/AliExpress-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress Official Store" src="https://img.shields.io/badge/AliExpress-Official_Store-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
   &nbsp;&nbsp;
-  <a href="https://shop110742373.taobao.com/"><img alt="Taobao store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://shop110742373.taobao.com/"><img alt="Taobao Official Store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
 </p>
 
-**Overseas (AliExpress)**
+**International (AliExpress)**
 
 - Store: [OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
 
@@ -99,13 +75,15 @@ Bring-up demo photo: [`assets/image_1.jpg`](./assets/image_1.jpg).
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
 
+---
+
 ## Support
 
-- Technical support / product inquiry: <luyu@osptek.com>
-- QQ group: **985881096**
+- Technical Support / Sales: <luyu@osptek.com>
+- QQ Technical Group: **985881096**
 - Website: <https://osptek.com/>
-- Feel free to open an Issue in this repository with any questions
+- Feel free to open an Issue in this repository if you have any questions
 
 ---
 
-<p align="center"><sub>© 2026 OSPTEK · Materials in this repository are licensed under CC BY 4.0</sub></p>
+<p align="center"><sub>© 2026 OSPTEK · Licensed under CC BY 4.0</sub></p>
